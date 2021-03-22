@@ -56,3 +56,12 @@
     
     
   }
+  @font-face {
+    font-family: myFirstFont ;
+    src: url('/assets/fonts/OpenSans-Regular.ttf');
+    
+}
+  p{
+  font-family: myFirstFont;
+}
+
