@@ -1,184 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<head>   
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home Page</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 </head>
 
-<header>  
-        <div class="topnav">
-            <h2 ><p> Insight </p></h2>
-            <p style="color: #737477;"><i>your nice slogan</i></p>           
-            
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <p><img src="assets/images/help.png" alt="Help" style="width: 19px;height: 20px; margin-left:15px;">&emsp;How it works</p>
-                </li>
-                <li class="nav-item">
-                  <a  class="nav-link" href="#"><img src="assets/images/user.png" alt="User" style="width:20px; height:18px;">&emsp;Sign up</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><img src="assets/images/lock.png" alt="Lock" style="width:14px; height:17px;">&emsp;Login</a>             
-            </ul>
-        </div>
-    
-</header>
-
 <body>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <header class="header">
+        <div class="container">
+            <div class="logo"><img src="assets/images/logo.png" height="25" width="81" alt=""></div>
+            <div class="slogan">your nice slogan</div>
+            <nav>
+                    <ul class="nav">
+                    <li class="how-it-works"><a href="#">How it works</a></li>
+                    <li class="sign-up"><a href="#">Sign up</a></li>
+                    <li class="login"><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-
-<div class="bg-img">
-    <div class="text">
-        <h1><b style="font-size: 50px;">Don't ignore your dreams</b></h1>
-        <p><b>The 5 regrets</b> paint a portrait of post-industrial man, who shrinks <br> himself into a shape that fits his circumstances, then turns <br> dutifully till he stops.</p>
-
+    <div class="hero">
+        <div class="container">
+            <h1>Don't ignore your dreams</h1>
+            <p><strong>The 5 regrets</strong> paint a portrait of post-industrial man, who shrinks himself into a shape that fits his circumstances, then turns dutifully till he stops.</p>
+            <a href="#" class="btn btn-green">See how it works</a>
+            <a href="#" class="btn btn-blue">Join us</a>
+        </div>
     </div>
 
-    <div class="button">
-        <button type="button" class="btn btn-success">See how it works</button>
-        
-          <button type="button" class="btn btn-primary">Join us</button>
-            
-    </div>
-</div>
+    <main class="middle">
+		<div class="container">
+			<div class="blocks">
+				<div class="block">
+					<div class="image"><img src="./assets/images/hinh1.jpg" height="180" width="319" alt=""></div>
+					<div class="person">
+						<div class="photo"><img src="./assets/images/logo1.jpg" height="50" width="50" alt=""></div>
+						<div class="text">
+							<div class="phrase">You neglect your friends</div>
+							<div class="info">Valerie Adams. Moldova. 19.</div>
+						</div>
+					</div>
+				</div>
+				<div class="block">
+					<div class="image"><img src="./assets/images/hinh2.jpg" height="180" width="319" alt=""></div>
+					<div class="person">
+						<div class="photo"><img src="./assets/images/logo2.jpg" height="50" width="50" alt=""></div>
+						<div class="text">
+							<div class="phrase">You forget your dreams</div>
+							<div class="info">Robert. Italy. 38</div>
+						</div>
+					</div>
+				</div>
+				<div class="block">
+					<div class="image"><img src="./assets/images/hinh3.jpg" height="180" width="319" alt=""></div>
+					<div class="person">
+						<div class="photo"><img src="./assets/images/logo3.jpg" height="50" width="50" alt=""></div>
+						<div class="text">
+							<div class="phrase">You suppress your feelings</div>
+							<div class="info">Sergei. Italy. 38</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-<div class="card-deck">
-    <div class="card">
-      <img class="card-img-top" src="/assets/images/hinh1.jpg" alt="Card image cap">
-      <div class="card-body">
-          <img src="/assets/images/logo1.jpg"  style="float: left; padding-right: 30px; height: 60px"  >
-        <h5 class="card-title">You neglect your friend</h5>
-        <p class="card-text">Valerie Adams, Moldova, 19.</p>
-        
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="/assets/images/hinh2.jpg" alt="Card image cap">
-      <div class="card-body">
-        <img src="/assets/images/logo2.jpg" style="float: left; padding-right: 30px; height: 60px;" >
-        <h5 class="card-title">You forget your dreams</h5>
-        <p class="card-text">Robert, Italy, 38.</p>
-        
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="/assets/images/hinh3.jpg" alt="Card image cap">
-      <div class="card-body">
-        <img src="/assets/images/logo3.jpg" style="float: left; padding-right: 30px; height: 60px" >
-        <h5 class="card-title">You suppes your feelings</h5>
-        <p class="card-text">Sengel, Italy, 38.</p>
-        
-      </div>
-    </div>
-</div>
+			<div class="news">
+				<div class="one">
+					<div class="img"><a href="#"><img src="./assets/images/h1.png" height="89" width="89" alt=""></a></div>
+					<div class="text">
+						<time>Oct 18</time>
+						<p><a href="#">I would like to avoid making these mistakes.</a></p>
+					</div>
+				</div>
+				<div class="one">
+					<div class="img"><a href="#"><img src="./assets/images/h2.png" height="89" width="89" alt=""></a></div>
+					<div class="text">
+						<time>Oct 8</time>
+						<p><a href="#">But how do you avoid mistakes you make by default?</a></p>
+					</div>
+				</div>
+				<div class="one">
+					<div class="img"><a href="#"><img src="./assets/images/h3.png" height="89" width="89" alt=""></a></div>
+					<div class="text">
+						<time>Oct 2</time>
+						<p><a href="#">Ideally you transform your life so it has other defaults.</a></p>
+					</div>
+				</div>
+			</div>
 
-<div class="card-deck1" style="columns: 3;"  >
+			<div class="featured">
+				<div class="title">Featured on:</div>
+				<ul>
+					<li><a href="#"><img src="./assets/images/logo-new-texas-times.png" height="28" width="262" alt=""></a></li>
+					<li><a href="#"><img src="./assets/images/logo-wooden.png" height="29" width="147" alt=""></a></li>
+					<li><a href="#"><img src="./assets/images/logo-vremya.png" height="22" width="112" alt=""></a></li>
+					<li><a href="#"><img src="./assets/images/logo-open-book.png" height="29" width="217" alt=""></a></li>
+					<li><a href="#"><img src="./assets/images/logo-twitter.png" height="29" width="36" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+	</main>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer-nav">
+                <div class="column">
+                    <div class="title">MAIN</div>
+                    <ul>
+                        <li><a href="#">Start Here</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Meet Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <div class="title">COMPANY</div>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Directory</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <div class="title">ONE MORE</div>
+                    <ul>
+                        <li><a href="#">Meetups</a></li>
+                        <li><a href="#">Handbook</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Equipment</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <div class="title">THE LAST ONE</div>
+                    <ul>
+                        <li><a href="#">Meetups</a></li>
+                        <li><a href="#">Handbook</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Equipment</a></li>
+                    </ul>
+                </div>
+                <ul class="pefect-icons">
     
+                    <li><a href="#"><img src="assets/images/logotwitter.png" width="32" style="width: 27px;"></a>
+                    </li>
+                    <li><a href="#"><img src="assets/images/logofb.png" width="32" style="width: 14px;"></a></li>
+                    <li><a href="#"><img src="assets/images/logovimeo.png" width="32" style="width: 22px;"></a></li>              
+                </ul>
+                <div class="copyright">
+                    <p>© 2013 be happy<br>
+                        <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a>
+                    </p>
+                </div>
+            </nav>
+        </div>
         
-    
-      
-      <div class="card-body">
-          <img src="/assets/images/h1.png"  style="float: left; padding-right: 30px; height: 89px"  >
-          <p class="card-title">Oct 18</p>
-          <p class="card-text" >I would to avoid making <br> these mistakes.</p>
-        
-      </div>
-    
-    
-      
-      <div class="card-body">
-        <img src="/assets/images/h2.png" style="float: left; padding-right: 30px; height: 89px;" >
-        <p class="card-title">Oct 8</p>
-        <p class="card-text" >But how do you avoid mistakes<br> you make default?</p>
-        
-      </div>
-    
-    
-      
-      <div class="card-body">
-        <img src="/assets/images/h3.png" style="float: left; padding-right: 30px; height: 89px; ;"  >
-        <p class="card-title">Oct 2</p>
-        <p class="card-text" >Ideally you traform your life<br> so it has other defaults.</p>
-        
-      </div>
-
-    
-</div>
-
-<div class="font">
-  <img src= "assets/images/foot.jpg" style="background-color: blanchedalmond;">
-  
-
-</div>
-
-<!-- FOOTER START -->
-<div class="footer">
-  <div class="contain">
-  <div class="col">
-    <h1>MAIN</h1>
-    <ul>
-      <li>Start Here</li>
-      <li>Portfolion</li>
-      <li>Meet Us</li>
-      <li>Blog</li>
-      <li>Contact</li>
-    </ul>
-  </div>
-  <div class="col">
-    <h1>COMPANY</h1>
-    <ul>
-      <li>About</li>
-      <li>Help</li>
-      <li>Support</li>
-      <li>Jobs</li>
-      <li>Directory</li>
-    </ul>
-  </div>
-  <div class="col">
-    <h1>ONE MORE</h1>
-    <ul>
-      <li>Meetups</li>
-      <li>Handbook</li>
-      <li>Privacy</li>
-      <li>API</li>
-      <li>Equipment</li>
-    </ul>
-  </div>
-  <div class="col">
-    <h1>THE LAST ONE</h1>
-    <ul>
-      <li>Meetups</li>
-      <li>Handbook</li>
-      <li>Privacy</li>
-      <li>API</li>
-      <li>Equipment</li>
-    </ul>
-  </div>
-  
-  <div class="col social" style="width: 440px; text-align: right;">
-    
-    <ul>
-    
-      <li><img src="assets/images/logotwitter.png" width="32" style="width: 27px;">
-      </li><li><img src="assets/images/logofb.png" width="32" style="width: 14px;"></li>
-      <li><img src="assets/images/logovimeo.png" width="32" style="width: 22px;"></li>
-    </ul>
-    <p style="color:lightslategray; padding-top:90px;;">© 2013 be happy <br>Privacy Policy Terms of Service</p>
-  </div>
-<div class="clearfix"> </div>
-</div>
-</div>
-<!-- END OF FOOTER -->
-</body>
-
+    </footer>
+    </body>
 
 </html>
