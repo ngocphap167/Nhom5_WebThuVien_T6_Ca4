@@ -97,6 +97,7 @@ a {
 .nav a {
     display: block;
     line-height: 62px;
+    
 }
 .container:after {
     content: "";
@@ -108,14 +109,16 @@ a {
     display: block;
     line-height: 62px;
     padding: 0 24px 0 53px;
+    position: relative; /*chinh vi tri icons*/
 }
 body {
     font: 16px 'Open Sans', Arial, Helvetica, sans-serif;
     color: #55606e;
-    width: 1280px;
+    
 }
 .nav a:hover {
     background-color: #13151a;
+    text-decoration: none;
 }
 .nav a:after {
     content: '';
@@ -125,21 +128,21 @@ body {
     left: 24px;
 }
 .nav .how-it-works a:after {
-    background-position: 0 -99px;
-    width: 19px;
-    height: 18px;
+	background-position: 0 -1px;
+	width: 19px;
+	height: 18px;
 }
 .nav .sign-up a:after {
-    background-position: -28px 0;
-    width: 19px;
-    height: 18px;
-    
+	background-position: -24px -1px;
+	width: 19px;
+	height: 18px;
 }
 .nav .login a:after {
-    background-position: -55px -2px;
-    width: 14px;
-    height: 17px;
+	background-position: -47px -1px;
+	width: 14px;
+	height: 17px;
 }
+
 .hero {
     background: #333 url(../images/body-top.jpg) no-repeat 50% 50%;
     background-size: cover;
@@ -212,16 +215,18 @@ body {
 }
 .footer-nav a {
     color: #8e959c;
+    
 }
 .pefect-icons{
     float: right;
     padding: 0 24px 0 53px;
-
+    
 }
 .pefect-icons li{
     float: left;
     padding-left: 25px;
     clear:right;
+    
     
 }
 
@@ -241,6 +246,7 @@ body {
 /*MAIN*/
 .blocks {
 	margin-bottom: 75px
+    
 }
 .blocks .block {
 	float: left;
@@ -359,4 +365,7 @@ body {
 }
 .featured a:hover {
 	opacity: 1;
+}
+body{
+    width: 1280px;
 }
