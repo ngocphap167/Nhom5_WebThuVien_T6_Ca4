@@ -338,8 +338,8 @@ a:hover {
 	position: relative;
 }
 .blocks .block:first-child {
-	margin-left: 1;
-	margin-right: 1;
+	margin-left: 0;
+	
 }
 
 .blocks img {
@@ -398,7 +398,7 @@ a:hover {
 	margin-left: 42px;
 }
 .news .one:first-child {
-	margin-left: 1;
+	margin-left: 0;
 }
 
 .news .img {
@@ -471,6 +471,33 @@ a:hover {
 	}
 	.blocks {
 		padding-bottom: 0;
+	}
+	.column{
+		margin-left:50px;
+	}
+	.featured{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.news .one:first-child {
+		margin-left: 50px;
+		margin-top: 20px;
+	}
+	.news .one {
+		margin-left: 50px;
+		margin-bottom: 40px;
+	}
+	.title{margin-bottom: 20px;}
+	.featured ul li{padding-bottom: 20px;}
+	
+	.blocks .block:first-child {
+		margin-left: 50px;
+		
+	}
+	.blocks .block{
+		margin-left: 50px;
+		margin-bottom: 40px;
+		
 	}
 
 	
