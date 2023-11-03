@@ -23,19 +23,35 @@ Xây dựng 1 website quản lý thư viện sách đáp ứng nhu cầu của m
   ![image](https://github.com/ngocphap167/Nhom5_WebThuVien_T6_Ca4/assets/67430822/55f182cf-b419-41ff-b55a-a84a1a119e72)
   # Công nghệ sử dụng
   1. Frontend
+
  ● Sử dụng thành thạo HTML, CSS và JS.
+
  ● Sử dụng thành thạo ít nhất một frontend framework: reactjs, angular, vuejs.
+ 
  ● Sử dụng thành thạo ít nhất một css preprocessor như scss, PostCSS.
+ 
  ● Sử dụng thành thạo ít nhất một tool build frontend, gợi ý bạn nên chọn webpack.
+ 
  ● Biết tối ưu SEO.
+ 
  ● Biết thiết kế UI/UX.
+ 
  ● Sử dụng thành thạo css BEM rules.
-  2. Backend 
+ 
+  3. Backend
+
  ● Sử dụng thành thạo PHP
+
  ● Sử dụng thành thạo ít nhất một database, gợi ý bạn nên học MySQL.
+ 
  ● Sử dụng thành thạo ít nhất một framework, gợi ý bạn nên chọn Laravel.
+ 
  ● Sử dụng thành thạo lập trình hướng đối tượng.
+ 
  ● Biết sử dụng Linux.
+ 
  ● Biết sử dụng ELK stack.
+ 
  ● Biết sử dụng docker.
+ 
   
